@@ -1,7 +1,8 @@
 ### Project Update
 
 * 10/24/2019, rvtest based on 4 different models (CMC, VTP,Skat, Kbac) completed and QQ-plot were prepared. 
-* 10/24/2019, Remove false postive SNPs:
+* 10/24/2019, QC: remove >10% genotyping missing SNPs and Individuals && SNPs with <0.001 MAFs 
+* 10/24/2019, QC: Remove false postive SNPs:
 `bcftools view -f PASS Schrodi_IL23_IL17_combined_RECAL_SNP_INDEL_variants.VA.vcf.gz -Oz -o Schrodi_IL23_IL17_combined_RECAL_SNP_INDEL_PASS_variants.VA.vcf.gz`
 * Capture efficiency and sequencing depth estimation: 
 * 10/24/2019, run FASTQ -> BWA alignment -> Picard SortSAM -> SAMtools split -> GATK Base Recalibration -> GATK PrintReads -> GATK DepthOfCoverage -> GATK Haplotype caller pipeline to call SNPs and Indels. 
