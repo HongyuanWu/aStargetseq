@@ -1,6 +1,6 @@
 ### Project Update
 
-* 10/24/2019, rvtest based on 5 different models completed and QQ-plot were prepared. 
+* 10/24/2019, rvtest based on 4 different models (CMC, VTP,Skat, Kbac) completed and QQ-plot were prepared. 
 * 10/24/2019, Remove false postive SNPs:
 `bcftools view -f PASS Schrodi_IL23_IL17_combined_RECAL_SNP_INDEL_variants.VA.vcf.gz -Oz -o Schrodi_IL23_IL17_combined_RECAL_SNP_INDEL_PASS_variants.VA.vcf.gz`
 * Capture efficiency and sequencing depth estimation: 
