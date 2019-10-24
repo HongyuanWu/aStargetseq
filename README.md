@@ -1,4 +1,4 @@
-## Update
+### Project Update
 
 * 10/24/2019, rvtest based on 5 different models completed and QQ-plot were prepared. 
 * 10/24/2019, Remove false postive SNPs:
