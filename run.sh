@@ -1,3 +1,9 @@
+# 2019/10/24
+
+ln -s /mnt/bigdata/Genetic/Projects/Schrodi_IL23_IL17_variants IL23IL17
+
+cd /gpfs/home/guosa/hpc/project/IL23IL17/Shicheng/rvtest
+
 wget http://www.well.ox.ac.uk/~wrayner/tools/HRC-1000G-check-bim-v4.2.7.zip
 wget http://ngs.sanger.ac.uk/production/hrc/HRC.r1-1/HRC.r1-1.GRCh37.wgs.mac5.sites.tab.gz
 unzip HRC-1000G-check-bim-v4.2.7.zip
@@ -67,16 +73,26 @@ perl ~/hpc/bin/HRC-1000G-check-bim.pl -b Schrodi_IL23_IL17_combined_RECAL_SNP_IN
 
 # burden test
 plink --bfile Schrodi_IL23_IL17_combined_RECAL_SNP_INDEL_PASS_NUM_GENO_MIND --recode vcf --out ../rvtest/Schrodi_IL23_IL17
-rvtest --inVcf Schrodi_IL23_IL17.vcf --pheno rvtest.phen --pheno-name b27 --out output --geneFile ~/hpc/bin/refFlat_hg19.txt.gz --burden cmc --vt price --kernel skat,kbac --noweb
+rvtest --inVcf Schrodi_IL23_IL17.rename.vcf.gz --pheno rvtest.phen.new --pheno-name b27 --out Schrodi_IL23_IL17 --geneFile ~/hpc/bin/refFlat_hg19.txt.gz --burden cmc --vt price --kernel skat,kbac --noweb
+
+for i in `ls *Skat.assoc`
+do
+Rscript qqplot.R $i 7
+done
+
+for i in `ls *Kbac.assoc`
+do
+Rscript qqplot.R $i 6
+done
 
 
-perl -p -i -e 's/\t/ /g' rvtest.phen
+for i in `ls *CMC.assoc`
+do
+Rscript qqplot.R $i 7
+done
 
 
-
-
-wget http://qbrc.swmed.edu/zhanxw/seqminer/data/refFlat_hg19.txt.gz
-gunzip refFlat_hg19.txt.gz
-perl -p -i -e 's/chr//' refFlat_hg19.txt
-gzip refFlat_hg19.txt
-cp refFlat_hg19.txt.gz ~/hpc/bin/
+for i in `ls *Price.assoc`
+do
+Rscript qqplot.R $i 13
+done
