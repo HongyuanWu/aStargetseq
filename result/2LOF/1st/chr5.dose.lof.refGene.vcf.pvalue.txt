@@ -1,0 +1,2 @@
+GeneSymbol	chr	NSNP	Case+	Case-	Normal+	Normal-	OR	P
+ERAP1	5	2	2	48	1	29	1.20618556701031	0.685856864654333
