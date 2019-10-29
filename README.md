@@ -1,5 +1,5 @@
 ### Project Update
-* 10/30/2019, the most convinent way to run Steve's 2LOF test come out before Halloween. check my script [here](2LOF.pbs) 
+* 10/29/2019, the most convinent way to run Steve's 2LOF test come out before Halloween. check my script [here](2LOF.pbs) 
 * 10/29/2019,generate new lof vcf from imputated dataset `~/hpc/project/IL23IL17/Shicheng/2LOF/MIS`
 * 10/29/2019, Re-QC: remove >10% genotyping missing SNPs and Individuals && keep SNPs with `any` MAFs  
 * 10/28/2019,new LoF were created and saved in `~/hpc/db/Gnomad/exome/aloft-exome-rec/annovar` check my script [here](https://raw.githubusercontent.com/Shicheng-Guo/HowtoBook/master/ANNOVAR/annovar2lof.R)
