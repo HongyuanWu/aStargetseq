@@ -1,0 +1,2 @@
+GeneSymbol	chr	NSNP	Case+	Case-	Normal+	Normal-	OR	P
+TTC8	14	1	0	50	0	30	1	1

@@ -1,0 +1,22 @@
+##fileformat=VCFv4.1
+##FILTER=<ID=PASS,Description="All filters passed">
+##filedate=2019.10.25
+##contig=<ID=10>
+##pipeline=michigan-imputationserver-1.2.1
+##imputation=minimac4-1.0.1-7228771
+##phasing=eagle-2.4
+##r2Filter=0.3
+##INFO=<ID=AF,Number=1,Type=Float,Description="Estimated Alternate Allele Frequency">
+##INFO=<ID=MAF,Number=1,Type=Float,Description="Estimated Minor Allele Frequency">
+##INFO=<ID=R2,Number=1,Type=Float,Description="Estimated Imputation Accuracy (R-square)">
+##INFO=<ID=ER2,Number=1,Type=Float,Description="Empirical (Leave-One-Out) R-square (available only for genotyped variants)">
+##INFO=<ID=IMPUTED,Number=0,Type=Flag,Description="Marker was imputed but NOT genotyped">
+##INFO=<ID=TYPED,Number=0,Type=Flag,Description="Marker was genotyped AND imputed">
+##INFO=<ID=TYPED_ONLY,Number=0,Type=Flag,Description="Marker was genotyped but NOT imputed">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DS,Number=1,Type=Float,Description="Estimated Alternate Allele Dosage : [P(0/1)+2*P(1/1)]">
+##FORMAT=<ID=HDS,Number=2,Type=Float,Description="Estimated Haploid Alternate Allele Dosage">
+##FORMAT=<ID=GP,Number=3,Type=Float,Description="Estimated Posterior Probabilities for Genotypes 0/0, 0/1 and 1/1">
+##bcftools_viewVersion=1.9-256-gee19e7c+htslib-1.9-410-ge43b472
+##bcftools_viewCommand=view -R /gpfs/home/guosa/hpc/db/Gnomad/exome/aloft-exome-rec/annovar/chr10.hg19_multianno.csv.lof -Ov -o chr10.dose.lof.vcf chr10.dose.vcf.gz; Date=Tue Oct 29 02:38:39 2019
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	MC101SPA_MC101SPA	MC102SPA_MC102SPA	MC103C_MC103C	MC104C_MC104C	MC105C_MC105C	MC106C_MC106C	MC107SpA_MC107SpA	MC108SpA_MC108SpA	MC109SPA_MC109SPA	MC110C_MC110C	MC111SpA_MC111SpA	MC112SpA_MC112SpA	MC113SpA_MC113SpA	MC114SpA_MC114SpA	MC115SpA_MC115SpA	MC116SpA_MC116SpA	MC117C_MC117C	MC118SPA_MC118SPA	MC119SpA_MC119SpA	MC120SpA_MC120SpA	MC121SpA_MC121SpA	MC122C_MC122C	MC123SpA_MC123SpA	MC124C_MC124C	MC125C_MC125C	MC126SPA_MC126SPA	MC127SpA_MC127SpA	MC128C_MC128C	MC129C_MC129C	MC130C_MC130C	MC131C_MC131C	MC132C_MC132C	MC133SPA_MC133SPA	MC134SPA_MC134SPA	MC135SpA_MC135SpA	MC136SpA_MC136SpA	MC137SpA_MC137SpA	MC138C_MC138C	MC139SpA_MC139SpA	MC140SpA_MC140SpA	UW001C_UW001C	UW002SPA_UW002SPA	UW003SpA_UW003SpA	UW004SpA_UW004SpA	UW005SpA_UW005SpA	UW006SpA_UW006SpA	UW007SpA_UW007SpA	UW008SpA_UW008SpA	UW009SPA_UW009SPA	UW010SPA_UW010SPA	UW011SpA_UW011SpA	UW012SpA_UW012SpA	UW013SpA_UW013SpA	UW014SpA_UW014SpA	UW015SpA_UW015SpA	UW016C_UW016C	UW017SPA_UW017SPA	UW018SPA_UW018SPA	UW019SpA_UW019SpA	UW020C_UW020C	UW021SpA_UW021SpA	UW022C_UW022C	UW023C_UW023C	UW024C_UW024C	UW025C_UW025C	UW026C_UW026C	UW027C_UW027C	UW028C_UW028C	UW029C_UW029C	UW030C_UW030C	UW031C_UW031C	UW032C_UW032C	UW033C_UW033C	UW034SpA_UW034SpA	UW035SpA_UW035SpA	UW036SpA_UW036SpA	UW037SpA_UW037SpA	UW038SpA_UW038SpA	UW039SpA_UW039SpA	UW040SpA_UW040SpA
