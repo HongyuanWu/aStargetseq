@@ -1,0 +1,10 @@
+
+cd /gpfs/home/guosa/hpc/project/IL23IL17/Shicheng/2LOF/MIS
+for i in {1..22}
+do
+bcftools view -R  ~/hpc/db/Gnomad/exome/aloft-exome-rec/annovar/chr$i.hg19_multianno.csv.lof chr$i.dose.vcf.gz -Ov -o chr$i.dose.lof.vcf
+bcftools annotate -x INFO,^FORMAT/GT -a ~/hpc/db/hg19/refGene.hg19.VCF.sort.bed.gz -c CHROM,FROM,TO,GENE -h <(echo '##INFO=<ID=GENE,Number=1,Type=String,Description="Gene name">') chr$i.dose.lof.vcf -Ov -o chr$i.dose.lof.refGene.vcf
+Rscript --vanilla 2LOF.R ~/hpc/project/IL23IL17/Shicheng/2LOF/MIS/chr$i.dose.lof.refGene.vcf  ~/hpc/project/IL23IL17/Shicheng/rvtest.phen 
+done
+
+
