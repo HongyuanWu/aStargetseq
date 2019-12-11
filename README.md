@@ -1,4 +1,4 @@
-## eQTL and pQTL Analysis to Axial Spondyloarthritis Macrophage Cells
+## Comprehensive eQTL and pQTL Analysis to Axial Spondyloarthritis Macrophage Cells
 
 ### Project Update
 * Update detail [clinical information to these 80 samples](AxialSpA_MasterFile_02Nov2015_corrected_for_SampSwap.csv	). eQTL and pQTL analysis were considered to be conducted. 
