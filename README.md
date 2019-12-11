@@ -5,7 +5,7 @@ In this project, we generated target sequencing (N=80), RNA-seq(N=278) and prote
 Aim: eQTL, pQTL and alternative splicing analysis
 
 Timeline
-* Here’s the clinical and protein data.  I forgot that some of the proteins were measured on a Luminex and some on ELISA.  
+* Steven mentioned clinical and protein data, and proteins were measured on a Luminex and some on ELISA.  
 * Update detail [clinical information to these 80 samples](AxialSpA_MasterFile_02Nov2015_corrected_for_SampSwap.csv	). eQTL and pQTL analysis were considered to be conducted. 
 * RNA-seq to 240 samples conducted in Judy's lab. Target seqeuncing to IL17/21 pathway were conducted in MCRI
 * Macrophase (N=80) have 3 status: naive, LPS-stimuli and 
