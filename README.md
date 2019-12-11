@@ -1,3 +1,5 @@
+### eQTL and pQTL analysis to Axial Spondyloarthritis macrophage cells
+
 ### Project Update
 * Update detail [clinical information to these 80 samples](AxialSpA_MasterFile_02Nov2015_corrected_for_SampSwap.csv	). eQTL and pQTL analysis were considered to be conducted. 
 * RNA-seq to 240 samples conducted in Judy's lab. Target seqeuncing to IL17/21 pathway were conducted in MCRI
