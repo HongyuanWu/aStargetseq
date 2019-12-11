@@ -2,7 +2,7 @@
 
 * RNA-seq to these 240 samples conducted in Judy's lab. Target seqeuncing to IL17/21 pathway were conducted in MCRI
 * Macrophase (N=80) have 3 status: naive, LPS-stimuli and 
-* We have 80 samples (50 case vs 30 control, MCRI-UW-Madison, PBMC were extracted and induced to macrophage
+* 80 samples (50 case vs 30 control, 50%MCRI-50%-UW-Madison, PBMC were extracted and induced to macrophage
 * 2019/12/11: Steven give a detail inroduction to this AS project including: target seqeuncing, RNA-seq and PLS treatment
 * with the 2nd analysis, more SNPs occured in each gene, however, neither significant signal was found [here](/result/2LOF/2nd/).
 * 10/29/2019, the most convinent way to run Steve's 2LOF test come out before Halloween. check my script [here](2LOF.pbs) 
