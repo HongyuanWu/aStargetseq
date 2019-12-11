@@ -2,6 +2,15 @@
 
 In this project, we generated target sequencing (N=80), RNA-seq(N=278) and protein outcome (N=240) to 80 macrophage cells induced from PBMC derived from 80 Axial Spondyloarthritis patients. 
 
+Aim: 
+
+1. eQTL
+
+2. pQTL
+
+3. alternative splicing analysis
+
+
 Timeline
 
 * Update detail [clinical information to these 80 samples](AxialSpA_MasterFile_02Nov2015_corrected_for_SampSwap.csv	). eQTL and pQTL analysis were considered to be conducted. 
