@@ -1,5 +1,5 @@
 ### Project Update
-
+* Update detail [clinical information to these 80 samples]().
 * RNA-seq to 240 samples conducted in Judy's lab. Target seqeuncing to IL17/21 pathway were conducted in MCRI
 * Macrophase (N=80) have 3 status: naive, LPS-stimuli and 
 * 80 samples (50 case vs 30 control, 50%MCRI-50%-UW-Madison, PBMC were extracted and induced to macrophage
