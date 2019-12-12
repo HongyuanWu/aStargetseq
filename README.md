@@ -4,6 +4,20 @@ In this project, we generated target sequencing (N=80), RNA-seq(N=278) and prote
 
 Aim: eQTL, pQTL and alternative splicing analysis
 
+1)	Haplotype work
+2)	Haplotype trees
+3)	Case-only analyses
+4)	eQTL on readouts
+5)	eQTL on readouts normalized to overall protein levels
+6)	Age-of-onset analyses on the genetics and readouts
+7)	Transcription factor work
+8)	Q-Q plots of baseline RNASeq comparing AS to controls (looks like I did this and not much signal)
+9)	Readouts vs. overall protein levels
+10)	HWE
+11)	 Gene-based work on the genetics
+12)	Genetic load
+13)	Correlation analyses among readouts
+
 Timeline
 * Steven mentioned clinical and protein data, and proteins were measured on a Luminex and some on ELISA.  
 * Update detail [clinical information to these 80 samples](AxialSpA_MasterFile_02Nov2015_corrected_for_SampSwap.csv	). eQTL and pQTL analysis were considered to be conducted. 
